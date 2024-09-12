@@ -24,7 +24,7 @@ This project involves setting up an automated workflow using LimaCharlie, Tines,
 ![SOAR EDR Diagram](diagrams/SOAREDR.png)
 
 ## Configuration
-- **LimaCharlie D&R Rule**: [View detection rule](rules/dandr_rule.json)
+- **LimaCharlie D&R Rule**: [View detection rule](rules)
 
 ## Next Steps
 1. Configure LimaCharlie as an EDR agent.
