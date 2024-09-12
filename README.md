@@ -21,7 +21,7 @@ This project involves setting up an automated workflow using LimaCharlie, Tines,
    - Status updates are sent to Slack and email.
 
 ## Workflow Diagram
-![SOAR EDR Diagram](diagrams)
+![SOAR EDR Diagram](SOAR-EDR.png)
 
 ## Configuration
 - **LimaCharlie D&R Rule**: [View detection rule](rules)
