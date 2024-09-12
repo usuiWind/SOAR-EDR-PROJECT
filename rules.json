@@ -1,5 +1,5 @@
 events:
-  - NEW_PROCESS
+  - NEW_PROCESS                #Since LaZagne creates a new process I target that event
   - EXISTING_PROCESS
 op: and
 rules:
@@ -10,7 +10,7 @@ rules:
         op: ends with
         path: event/FILE_PATH
         value: LaZagne.exe
-      - case sensitive: false
+      - case sensitive: false           #So only LaZagne triggers an alert 
         op: contains
         path: event/COMMAND_LINE
         value: LaZagne
@@ -21,7 +21,7 @@ rules:
 - action: report
   metadata:
     author: Austin
-    description: Detects Lazagne Usage (SOAR-EDR)
+    description: Detects Lazagne Usage (SOAR-EDR)        
     falsepositives:
       - ToTheMoon
     level: high
