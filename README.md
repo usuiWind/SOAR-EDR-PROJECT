@@ -25,6 +25,7 @@ This project involves setting up an automated workflow using LimaCharlie, Tines,
 
 ## Configuration
 - **LimaCharlie D&R Rule**: [View detection rule](rules)
+- **More Documentation**: [View doc](Untitled.document(1).pdf)
 
 ## Next Steps
 1. Configure LimaCharlie as an EDR agent.
